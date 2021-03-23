@@ -1,7 +1,7 @@
-name: "personal_projects"
+name: personal_projects
 output_dir: ../docs
 navbar:
-  title: "personal_projects"
+  title: personal_projects
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/michaelgaunt404/personal_projects
 output:
   workflowr::wflow_html:
     toc: yes
