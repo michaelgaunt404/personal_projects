@@ -27,6 +27,12 @@ skimr::skim()
 
 You can also embed plots, for example:
 
+```{r}
+pressure %>%  
+  skimr::skim()
+```
+
+
 ```{r pressure, echo=FALSE}
 plot(pressure)
 ```
